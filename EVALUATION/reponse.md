@@ -32,7 +32,7 @@ Un professeur peut se servir de ce smart contract pour certifier l'obtention d'u
 uint public passingMarks permet de définir la note minimal pour obtenir l'examen
 
 11. Décrivez les étapes qui permettent d'utiliser ce code en "production". (3 points)
-
+Après avoir testé et déployé le contrat en local ou sur le testnet de sepolia pour vérifié une quelconque sur le contrat, vous pouvez déployé votre contrat sur le mainnet d'ethereum en payant un cout de gaz en ETH puis vous pouvez interagir avec le contrat en utilisant des transactions ayant elle aussi un cout en gaz.
 
 12. Peut-on librement utiliser la fonction submitMarks ? Pourquoi ? (3 points)
 la fonction submitMarks ne peut être librement. Seul le professeur peut noter des élèves, tant que la note de l'élève n'est pas supérieur à la note maximale de l'examen.
